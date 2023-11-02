@@ -24,7 +24,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Example in Class">
   <meta property="og:description" content="Ongoing example!">
-  <meta property="og:image" content="assets/pngs/cars.png">
+  <meta property="og:image" content="assets/pngs/unemployment.png">
 
   <title>Example in Class</title>
   <meta name="description" content="Ongoing example!">
@@ -76,10 +76,27 @@
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
   <h1 id="example-including-vega-lite">Example including vega-lite</h1>
 
+<p>Example that came with the template:</p>
 <vegachart schema-url="/assets/json/cars.json" style="width: 100%"></vegachart>
 
-<!-- these are written in a combo of html and liquid -->
+<h2 id="example-from-the-vega-editor">Example from the vega-editor</h2>
 
+<p>Simple barplot specification:</p>
+<vegachart schema-url="/assets/json/firstViz.json" style="width: 100%"></vegachart>
+
+<h2 id="something-more-complicated-with-interactivity">Something more complicated with interactivity:</h2>
+<vegachart schema-url="/assets/json/unemployment.json" style="width: 100%"></vegachart>
+
+<h2 id="from-a-dictonary-in-altair-in-python">From a dictonary in Altair in Python</h2>
+<vegachart schema-url="/assets/json/chart1.json" style="width: 100%"></vegachart>
+
+<h2 id="static-side-by-side">Static side-by-side</h2>
+<vegachart schema-url="/assets/json/static_mobility.json" style="width: 100%"></vegachart>
+
+<h2 id="interactive-dashboard-side-by-side">Interactive dashboard side-by-side</h2>
+<vegachart schema-url="/assets/json/interactive_mobility.json" style="width: 100%"></vegachart>
+
+<!-- these are written in a combo of html and liquid -->
 <div class="left">
 <a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/vega/vega/blob/main/docs/data/cars.json">
   The Data
