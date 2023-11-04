@@ -123,4 +123,4 @@ exclude:
   - "*.log"
   - "*.ipynb"
   - "python_notebooks/*"
-  - "IS 455"
+  - "IS 455/*"
