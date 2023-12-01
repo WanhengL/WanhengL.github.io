@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+  Updates for JPN Spring 2023
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Global Perspectives -- Mapping the Journey of International Students in US Institutions">
+  <meta property="og:description" content="["Authors: Wanheng Li & Xiao Zeng", "Data Credit: opendoorsdata.org"]">
+  <meta property="og:image" content="assets/pngs/side_by_side_building_inventory.png">
+
+  <title>Global Perspectives -- Mapping the Journey of International Students in US Institutions</title>
+  <meta name="description" content="["Authors: Wanheng Li & Xiao Zeng", "Data Credit: opendoorsdata.org"]">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body class="h-100 d-flex flex-column">
+
+  <main class="flex-shrink-0 container mt-5">
+    <nav class="navbar navbar-expand-lg navbar-themed">
+
+  <a class="navbar-brand" href="/"><h5><b>Wanheng's Projects</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link active" href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link " href="/blog/">Blog</a>
+
+      <a class="nav-item nav-link " href="/about/">About</a>
+
+      
+
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
+  </div>
+
+</nav>
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <p>Welcome to our Global Perspectives: Mapping the Journey of International Students in US Institutions! This is an interactive website that delves into the dynamics of international study in the United States. Through three captivating visualizations, we comprehensively showcase study trends from 1950 to 2023 on a global scale, a country-level perspective, and an institutional viewpoint. This platform serves as an information-rich study database and provides the latest study insights for the academic year 2022-2023.</p>
+
+<h2 id="line-chart---trends-in-enrollment-of-international-students-in-the-us">Line Chart - Trends in Enrollment of International Students in the U.S.:</h2>
+
+<p>This line chart depicts the trends in the number of international students originating from different continents or major geographic regions, dating back to 1949. A dropdown menu provides the option to choose a specific continent/region, enabling the display of all countries within the selected area. This chart offers detailed insights into how the attractiveness of U.S. institutions to global students has evolved over time.</p>
+
+<vegachart schema-url="/assets/json/side_by_side_building_inventory.json" style="width: 100%"></vegachart>
+
+<p>Data citation: Institute of International Education (2023). “International Student Totals by Place of Origin, 2000/01-2022/23.” Open Doors Report on International Educational Exchange. Retrieved from http://www.opendoorsdata.org.</p>
+
+<h2 id="world-map---global-student-origins">World Map - Global Student Origins:</h2>
+
+<p>This map features the origins of international students on an interactive 
+world map. Countries on the map are color-coded based on the number of international students from that country in the 2022/23 academic year, with deeper shades indicating a higher student count. Hovering the mouse over a country will reveal its name and the count of its international students enrolled in U.S. institutions for the 2022/23 academic year. Selecting a country by clicking on it will generate a line chart showing the trends in student numbers from that country over the years. Multiple countries can be selected to compare their trends.</p>
+
+<vegachart schema-url="/assets/json/side_by_side_building_inventory.json" style="width: 100%"></vegachart>
+
+<p>Data source: <a href="https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/all/all.csv"><strong>ISO country code</strong></a></p>
+<h2 id="us-state-map--institutions">U.S. State Map &amp; Institutions:</h2>
+<h3 id="states-hosting-international-students--top-25-leading-institutions">States Hosting International Students &amp; Top 25 Leading Institutions:</h3>
+
+<p>This visualization seamlessly integrates a U.S. map with a bar chart, presenting a comprehensive overview of international student enrollment across various states. States are color-coded on the map, with darker shades indicating higher numbers of international students and lighter shades representing lower enrollment. The visualization aims to assist in identifying states that are particularly popular or less favored among international students.
+Furthermore, the U.S. map features points which highlight the top 25 institutions that attracted the most international students from 2022 to 2023. Notable institutions such as New York University, Northeastern University Boston, and Columbia University stand out in this period. Leveraging interactive features, feel free to click or hold down “Shift” to select multiple points, and explore the scale of international students at these leading institutions.
+On the flip side, exploration of the geographical locations of institutions is achievable by selecting the corresponding bars in the bar chart. This dual approach offers a versatile method for examining not only the general distribution of international students across states but also the specific number of international students in these leading institutions.
+This visualization combines a U.S. map with a bar chart, showcasing the top 25 institutions that attracted the most international students from 2022 to 2023. Institutions like New York University, Northeastern University Boston, and Columbia University stood out during this period. Interactive features with the map allow you to explore the scale and geographic distribution of international students at each institution.</p>
+
+<vegachart schema-url="/assets/json/usmap_and_leading_institutions.json" style="width: 100%"></vegachart>
+<p>Institute of International Education (2023). “Leading Institutions Hosting International Students, 2000/01-2022/23.” Open Doors Report on International Educational Exchange. Retrieved from http://www.opendoorsdata.org.</p>
+
+<p>Through this visualization platform, you can gain a comprehensive understanding of U.S. study dynamics. Our charts not only provide profound insights but also allow you to delve into specific data points of interest through interactivity. Whether you’re a scholar, decision-maker interested in study trends, or a student planning to study abroad, this platform offers valuable information and inspiration. Explore the opportunities in international education and embark on your study journey!</p>
+
+<h2 id="design-thinking">Design Thinking:</h2>
+<h3 id="color">Color:</h3>
+
+<h3 id="data-link">Data Link:</h3>
+<h5 id="main-viz-data-link">Main Viz Data Link</h5>
+
+<ol>
+  <li><a href="https://opendoorsdata.org/data/international-students/all-places-of-origin/"><strong>All Places of Origin</strong></a></li>
+</ol>
+
+<h5 id="contextual-viz-data-link">Contextual Viz Data Link</h5>
+
+<ol>
+  <li>
+    <p><a href="https://opendoorsdata.org/data/international-students/leading-institutions/"><strong>Leading Institutions</strong></a></p>
+  </li>
+  <li>
+    <p><a href="https://opendoorsdata.org/data/international-students/leading-places-of-origin/"><strong>Leading Places of Origin</strong></a></p>
+  </li>
+  <li>
+    <p><a href="https://opendoorsdata.org/infographic/u-s-states-hosting-international-students-2022-23/"><strong>Hosting International Students</strong></a></p>
+  </li>
+</ol>
+
+<!-- these are written in a combo of html and liquid -->
+
+<div class="left">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/vega/vega/blob/main/docs/data/cars.json">
+  The Data
+</a>
+</div>
+
+<div class="right">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb">
+  The Analysis
+</a>
+</div>
+
+
+</div>
+  </main>
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>Wanheng Li</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:wanheng2@illinois.edu"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/WanhengL"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.twitter.com/your_username"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#1da1f2'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-twitter fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.youtube.com/your_channel_name"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#ff0000'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-youtube fa-1x"></i>
+    </a>
+
+</div>
+
+  Theme by <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a> and <a href="https://github.com/4dcu-be/4dcu.be">4dcu.be</a>.
+
+  
+<!--<small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+-->
+
+</footer>
+
+
+<!-- Custom page specific js files -->
+  
+    <script src='/assets/js/vega.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-lite.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-embed.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/justcharts.js' type="text/javascript"></script>
+  
+
+
+
+  
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+
+<!--
+end of checks! JPN
+-->
+
+</html>
