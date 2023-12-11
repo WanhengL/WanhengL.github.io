@@ -1,10 +1,9 @@
 ---
-name: Global Perspectives -- Mapping the Journey of International Students in US Institutions
-tools: [Python, HTML, vega-lite]
+name: Global Perspectives -- Mapping the Journey of International Students in the US 
+tools: [Python, Vega-Altair, HTML]
 image: assets/pngs/world_map.png
 description: 
-  - "Authors: Wanheng Li & Xiao Zeng"
-  - "Data Credit: opendoorsdata.org"
+  - "Authors: Wanheng Li & Xiao Zeng<br>Data Credit: opendoorsdata.org"
 custom_js:
   - vega.min
   - vega-lite.min
